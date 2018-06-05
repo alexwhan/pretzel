@@ -21,7 +21,6 @@ matrix:
     - env: EMBER_VERSION=beta
     - env: EMBER_VERSION=canary
 services: mongodb
-
 before_install:
     # setting the path for phantom.js 2.0.0
     - export PATH=/usr/local/phantomjs-2.0.0/bin:$PATH
